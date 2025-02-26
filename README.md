@@ -57,4 +57,6 @@ npm install @mui/material @emotion/react @emotion/styled
 npm install socket.io-client
 ```
 
+## 5. Create components folder inide src folder 
+
 This completes the setup for the client-side. You can now start building and testing your application.

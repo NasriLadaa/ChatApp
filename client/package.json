@@ -13,7 +13,9 @@
     "@emotion/react": "^11.14.0",
     "@emotion/styled": "^11.14.0",
     "@mui/material": "^6.4.6",
+    "@popperjs/core": "^2.11.8",
     "axios": "^1.8.1",
+    "bootstrap": "^5.3.3",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
     "react-router-dom": "^7.2.0",
@@ -29,6 +31,7 @@
     "eslint-plugin-react-hooks": "^5.0.0",
     "eslint-plugin-react-refresh": "^0.4.19",
     "globals": "^15.15.0",
+    "sass": "^1.85.1",
     "vite": "^6.2.0"
   }
 }

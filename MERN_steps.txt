@@ -1,0 +1,56 @@
+Steps for Full Stack MERN Project (Summary)
+ 
+Create project folder
+Create client folder in side <project-folder> (install the below):
+1- npm create vite@latest
+2- name project
+3- select React
+4- select JavaScript + SWC
+5- cd project name
+6- npm install
+
+To run client side
+7- npm run dev   
+ 
+(inside client root)
+npm install axios
+npm install react-router-dom
+npm install @mui/material @emotion/react @emotion/styled
+npm install socket.io-client
+
+Create server folder in side <project-folder> (install the below):
+npm init -y
+npm install express
+npm install mongoose
+npm install dotenv
+copy nul .gitignore
+copy nul .env
+create config folder
+create controller folder
+create models folder
+create routes folder
+create server.js inside server folder root level.
+ 
+npm install cors
+npm install socket.io
+ 
+
+npm install dotenv
+ 
+copy nul .gitignore
+copy nul .env
+create config folder
+create controller folder
+create models folder
+create routes folder
+create server.js inside server folder root level.
+ 
+npm install cors
+npm install @mui/material @emotion/react @emotion/styled
+ 
+to run server side (cd /server.js)
+npm install --save-dev nodemon
+npx nodemon app.js
+or (intall nodemon just for this project not global)
+npm install -g nodemon
+nodemon server.js

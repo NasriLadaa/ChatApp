@@ -65,6 +65,8 @@ npm install axios
 npm install react-router-dom
 npm install @mui/material @emotion/react @emotion/styled
 npm install socket.io-client
+npm i --save bootstrap @popperjs/core
+npm i --save-dev sass
 ```
 
 ---

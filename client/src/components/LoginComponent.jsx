@@ -2,8 +2,6 @@ import React from "react";
 import '../css/style.css';
 
 const LoginComponent = () => {
-
-
     return (
         <div className="container-fluid bg-ligth">
             <div className="row justify-content-center">

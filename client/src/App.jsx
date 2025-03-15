@@ -12,7 +12,7 @@ import HomeComponent from './components/HomeComponent'
 import AboutComponent from './components/AboutComponent'
 import ContactComponent from './components/ContactComponent'
 import LoginComponent from './components/LoginComponent'
-
+import SignupComponent from './components/SignupComponent'
 function App() {
 
   return (
@@ -23,6 +23,7 @@ function App() {
           <Route path="/home" element={<HomeComponent />} />
           <Route path="/about" element={<AboutComponent />} />
           <Route path="/contact" element={<ContactComponent />} />
+          <Route path="/signup" element={<SignupComponent />} />
           <Route path="/login" element={<LoginComponent />} />
         </Route>
       </Routes>

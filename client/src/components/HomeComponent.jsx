@@ -2,6 +2,7 @@
 import React from 'react';
 import '../css/LayoutCSS.css';
 import '../css/cover.css';
+import { Link } from 'react-router-dom';
 
 const HomeComponent = () => {
 

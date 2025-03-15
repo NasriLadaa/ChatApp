@@ -103,6 +103,7 @@ npm install mongoose
 npm install dotenv
 npm install cors
 npm install socket.io
+npm install bcrypt
 ```
 
 ---

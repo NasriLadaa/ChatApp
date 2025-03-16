@@ -28,11 +28,10 @@ module.exports.createNewUser = (req, res) => {
   User.create(req.body)
 
     .then((newlyCreatedUser) => {
-      res.json({ user: newlyCreatedUser });
+      res.json({ msg : "Success!" , user: newlyCreatedUser });
     })
-
     .catch((err) => {
-      res.status(400).json(err);
+      res.json(err);
     });
 };
 

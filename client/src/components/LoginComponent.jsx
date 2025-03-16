@@ -2,11 +2,18 @@ import React from "react";
 import '../css/style.css';
 
 const LoginComponent = () => {
+
+    const handleSubmit = (e) => {
+        e.preventDefault();
+        
+
+    }
+
     return (
         <div className="container-fluid bg-ligth">
             <div className="row justify-content-center">
                 <div className="col-lg-8 col-md-8 col-sm-10">
-                    <form className="form-container">
+                    <form className="form-container" onSubmit={handleSubmit} >
                         <h4 class="text-center font-weight-bold"> Login </h4>
                         <div class="form-floating mb-3">
                             <input type="text" class="form-control" id="floatingInput" placeholder="Username" />

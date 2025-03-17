@@ -188,7 +188,7 @@ nodemon server.js
 
 ## 6. Notes
 
-- **.env File**: Make sure to configure the `.env` file with the necessary environment variables (e.g., database URLs, API keys, etc.).
+- **.env File**: Make sure to configure the `.env` file with the necessary environment variables (e.g., database name, Atlas admin account password and username, port, API keys, etc.).
 - **Security**: Ensure sensitive data in the `.env` file is kept secure and not shared publicly. Include `.env` and `node_modules` in `.gitignore` to avoid pushing them to the repository.
 
 ---

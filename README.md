@@ -1,6 +1,6 @@
 # Project Name: Chat App
 
-## What is Dataset Classifiction App?
+## What is Chat App?
 This is a reliable and scalable real-time chat application built using React for the frontend and Node.js with Express.js and MongoDB for the backend. The app allows users to engage in instant messaging with features like user authentication, message history, and live updates.
 
 ## Features

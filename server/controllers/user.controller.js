@@ -31,7 +31,7 @@ module.exports.createNewUser = (req, res) => {
       res.json({ msg : "Success!" , user: newlyCreatedUser });
     })
     .catch((err) => {
-      res.json(err);
+      res.status(400).json(err);
     });
 };
 

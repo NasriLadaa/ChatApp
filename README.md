@@ -14,7 +14,7 @@ This is a reliable and scalable real-time chat application built using React for
 ### Tools
 - ![Jira](https://img.shields.io/badge/-Jira-brightgreen?logo=jira) Agile Development Tools: Trello, Confluence
 - ![Git](https://img.shields.io/badge/-Git-orange?logo=git) Version Control: GitHub
-- ![Test](https://img.shields.io/badge/-Unit%20Testing-blue?logo=jest) Unit Testing: Junit
+- ![Test](https://img.shields.io/badge/-Unit%20Testing-blue?logo=jest) Unit Testing: Junit, RESTful api testing: Postman
 - ![Selenium](https://img.shields.io/badge/-Selenium-blue?logo=selenium) UI Testing: Selenium
 
 ### Technologies

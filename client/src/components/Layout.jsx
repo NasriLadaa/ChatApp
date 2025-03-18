@@ -35,6 +35,7 @@ const Layout = () => {
             </main>
 
             <footer className="mt-auto text-white-50">
+                <p></p>
                 <p> &copy; &nbsp;<Link to="https://nasriladaa.github.io/" className="text-white">Nasri S. Ladaa.</Link> All Rights Reserved. </p>
             </footer>
         </>

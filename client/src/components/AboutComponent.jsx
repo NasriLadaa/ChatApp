@@ -1,10 +1,11 @@
 import React from "react";
 
-const AboutComponent = ()=> {
+const AboutComponent = (props)=> {
+    const {companyName} = props;
 
     return (
         <div>
-            <h1>About Page</h1>
+            <h1>About Page {companyName} </h1>
         </div>
 
     )

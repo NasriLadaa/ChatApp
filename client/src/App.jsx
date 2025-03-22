@@ -13,15 +13,24 @@ import AboutComponent from './components/AboutComponent'
 import ContactComponent from './components/ContactComponent'
 import LoginComponent from './components/LoginComponent'
 import SignupComponent from './components/SignupComponent'
+
+
+
 function App() {
+
+  const [data, SetData] = useState("");
+
+  const handleData = (data)=>{
+    SetData(data);
+  }
 
   return (
     <>
       <Routes>
         {/* Define the master page layout */}
         <Route path="/" element={<Layout />}>
-          <Route path="/home" element={<HomeComponent />} />
-          <Route path="/about" element={<AboutComponent />} />
+          <Route path="/home" element={<HomeComponent companyName="ChatApp" onSendData ={handleData } />} />
+          <Route path="/about" element={  <AboutComponent companyName={data} />} />
           <Route path="/contact" element={<ContactComponent />} />
           <Route path="/signup" element={<SignupComponent />} />
           <Route path="/login" element={<LoginComponent />} />

@@ -40,7 +40,9 @@ This is a reliable and scalable real-time chat application built using React for
    - Event based API: Web Socket.io
     
 
-### Used Hooks React side and modules in project:
+### Used Hooks React side and modules in project, techniques:
+- props
+- Lifting state up
 - useState
 - useEffect
 - useNavigate

@@ -46,6 +46,7 @@ This is a reliable and scalable real-time chat application built using React for
 - useState
 - useEffect
 - useNavigate
+- Custom Hooks
 - Axios
 - Bcrypt, JWT
 - Web Socket.io

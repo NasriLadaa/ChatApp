@@ -53,3 +53,5 @@ This is a reliable and scalable real-time chat application built using React for
 
 #### Screenshoot from the applcation will be uploaded soon.
 
+Login page
+![Screenshot](Docs/Login.png)

@@ -2,7 +2,7 @@ import { useState, useEffect, useRef } from "react";
 import { format } from "date-fns";
 import "../css/ChatComponent.css";
 
-const ChatWindow = () => {
+const ChatComponent = () => {
   const [messages, setMessages] = useState([
     {
       id: 1,
@@ -104,4 +104,4 @@ const ChatWindow = () => {
   );
 };
 
-export default ChatWindow;
+export default ChatComponent;

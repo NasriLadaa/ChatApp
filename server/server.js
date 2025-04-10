@@ -12,5 +12,4 @@ const AllMyUserRoutes = require("./routes/user.routes");
 
 AllMyUserRoutes(app);
 
-
 app.listen(port, () => console.log(`Listening on port: ${port}`));

@@ -23,6 +23,7 @@ const Layout = () => {
                         <Link className={getActiveClass('/home')} to="/home">Home</Link>
                         <Link className={getActiveClass('/about')} to="/about">About</Link>
                         <Link className={getActiveClass('/contact')} to="/contact">Contact</Link>
+                        <Link className={getActiveClass('/chat')} to="/chat">Chat</Link>
                         <Link className={getActiveClass('/signup')} to="/signup">Sign Up</Link>
                         <Link className={getActiveClass('/login')} to="/login">Login</Link>
                     </nav>
